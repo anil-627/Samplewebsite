@@ -4,7 +4,7 @@
 }
 
 section {
-    background-color: tomato;
+    /* background-color: grey; */
     color: white;
     padding: 1rem 0rem;
 }
@@ -23,7 +23,6 @@ section {
 
 ul li {
     list-style: none;
-    font-size: 1.5rem;
     padding: 0px 10px;
     margin: 0px;
 }
