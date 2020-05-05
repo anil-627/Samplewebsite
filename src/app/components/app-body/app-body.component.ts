@@ -12,6 +12,8 @@ export class AppBodyComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+  ngAfterViewInit(): void {
     $(document).ready( () => {
       // initialize swiper when document ready
       // tslint:disable-next-line: prefer-const
