@@ -16,9 +16,9 @@ section {
 }
 
 .pro-img img {
-    width: 250PX;
-    height: 250px;
-    border-radius: 50%;
+    width: 200PX;
+    height: 180px;
+    border-radius: 45%;
 }
 
 ul li {
@@ -32,6 +32,21 @@ ul a {
     color: white;
 }
 
-.contact {
-    padding: 10px 10px;
+@media screen and (max-width: 881px) {
+    .quick {
+        text-align: center;
+    }
+    .contact {
+        padding: 10px 10px;
+        text-align: center;
+    }
+}
+
+.d-name {
+    color: tomato;
+    line-height: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0.5rem;
 }

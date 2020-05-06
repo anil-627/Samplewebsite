@@ -1,0 +1,27 @@
+section {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.page-controller {
+    padding: 0;
+    margin: 0;
+}
+
+.img-control {
+    height: 100%;
+    width: 100%;
+}
+
+.img-control img {
+    width: 100%;
+    height: auto;
+}
+
+.content-abt {
+    text-align: justify;
+    padding: 25px;
+    font-style: 1.2rem;
+}

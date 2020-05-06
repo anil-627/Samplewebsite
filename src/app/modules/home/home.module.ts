@@ -5,11 +5,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
+import { AboutComponent } from 'src/app/components/about/about.component';
+import { ServiceComponent } from 'src/app/components/service/service.component';
 
 
 @NgModule({
   declarations: [
     AppBodyComponent,
+    AboutComponent,
+    ServiceComponent
+
 
   ],
   imports: [

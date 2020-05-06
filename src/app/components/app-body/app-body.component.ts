@@ -17,7 +17,7 @@ export class AppBodyComponent implements OnInit {
     $(document).ready( () => {
       // initialize swiper when document ready
       // tslint:disable-next-line: prefer-const
-       var mySwiper = new Swiper ('.swiper-container', {
+       var mySwiper1 = new Swiper ('.swiper1', {
         // Optional parameters
         effect: 'coverflow',
         grabCursor: true,
@@ -30,8 +30,30 @@ export class AppBodyComponent implements OnInit {
           modifier: 1,
           slideShadows : true,
         },
+        autoplay: {
+          delay: 3000,
+        },
         pagination: {
-          el: '.swiper-pagination',
+          el: '.swiper-pagination1',
+        },
+
+      });
+       var mySwiper2 = new Swiper ('.swiper2', {
+        // Optional parameters
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        effect: 'fade',
+        autoplay: {
+          delay: 5000,
+        },
+        pagination: {
+          el: '.swiper-pagination2',
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       });
     });
