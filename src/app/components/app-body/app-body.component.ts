@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 declare var $: any;
 import Swiper from 'swiper';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-app-body',
@@ -15,9 +16,10 @@ export class AppBodyComponent implements OnInit {
   }
   ngAfterViewInit(): void {
     $(document).ready( () => {
+      AOS.init();
       // initialize swiper when document ready
       // tslint:disable-next-line: prefer-const
-       var mySwiper1 = new Swiper ('.swiper1', {
+      let mySwiper1 = new Swiper ('.swiper1', {
         // Optional parameters
         effect: 'coverflow',
         grabCursor: true,
@@ -38,7 +40,7 @@ export class AppBodyComponent implements OnInit {
         },
 
       });
-       var mySwiper2 = new Swiper ('.swiper2', {
+      let mySwiper2 = new Swiper ('.swiper2', {
         // Optional parameters
         slidesPerView: 'auto',
         spaceBetween: 30,
@@ -56,6 +58,7 @@ export class AppBodyComponent implements OnInit {
           prevEl: '.swiper-button-prev',
         },
       });
+
     });
   }
 

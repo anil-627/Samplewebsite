@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import AOS from 'aos';
+declare var $: any;
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -11,5 +12,9 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  ngAfterViewInit(): void {
+    $(document).ready( () => {
+      AOS.init();
+    });
+  }
 }

@@ -70,6 +70,9 @@ video {
     padding: 0px;
     height: 25vh;
     background: #000;
+    background: url('../../../assets/bg03.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .smoke-effect .welcomenote {
@@ -230,26 +233,49 @@ video {
     }
 }
 
-.content-abt {
+.about {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden
+}
+
+.about .contnetBX {
+    width: 50%;
+    background-color: rgb(25, 36, 69);
+}
+
+.about .contnetBX .heading {
+    padding: 1.5rem;
+}
+
+.about .contnetBX .content-abt {
     text-align: justify;
     padding: 25px;
     font-style: 1.2rem;
+    color: white;
+    padding: 1rem;
 }
 
-.bg-img {
-    position: relative;
-    height: 100vh;
-    background: url("../../../assets/bg02.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.about .imageBX {
+    width: 50%;
+    height: auto;
+    background-color: rgb(25, 36, 69);
 }
 
-.bg-img img {
-    position: relative;
+.about .imageBX img {
     width: 100%;
-    z-index: -1;
     height: 100%;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-weight: 600;
 }
 
 .slider-but {
@@ -369,4 +395,8 @@ video {
     .smoke-effect {
         height: 12vh;
     }
+}
+
+.gallary {
+    background-color: rgba(0, 0, 0, 0.5);
 }
