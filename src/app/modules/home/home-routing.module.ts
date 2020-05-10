@@ -1,3 +1,5 @@
+import { SignupComponent } from './../../components/Auth/signup/signup.component';
+import { LoginComponent } from './../../components/Auth/login/login.component';
 import { ServiceComponent } from './../../components/service/service.component';
 import { AboutComponent } from './../../components/about/about.component';
 import { NgModule } from '@angular/core';
@@ -10,6 +12,8 @@ const routes: Routes = [
   { path: 'home-body', component: AppBodyComponent},
   { path: 'about', component: AboutComponent},
   { path: 'service', component: ServiceComponent},
+  { path: 'login', component: LoginComponent},
+  { path: 'signup', component: SignupComponent},
 ];
 
 @NgModule({
