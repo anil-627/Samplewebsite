@@ -1,9 +1,20 @@
+.navbar{
+  padding: 1rem;
+}
 .nav-link {
-    line-height: 3.5rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
 }
 
 .navbar-brand img {
-    height: 5rem;
+    height: 3rem;
     margin: 0px;
     padding: 0px;
+}
+.active{
+  color: white;
+  font-weight: bold;
+  background: lightgreen;
+  padding: 0px 2px;
+  border-radius: 2px soldi grey;
 }

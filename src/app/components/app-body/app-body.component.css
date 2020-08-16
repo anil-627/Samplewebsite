@@ -421,6 +421,7 @@
         position: relative;
         width: 100%;
         height: 100%;
+        padding:1rem;
     }
 
     .formdata form {
@@ -460,6 +461,7 @@
         padding: 0.5rem 0.8rem;
         outline: none;
         margin: 1.2rem 0rem;
+        text-transform: uppercase;
     }
 
     .formdata input[type='button']:hover {
@@ -512,9 +514,62 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         white-space: nowrap;
+        transition: 2s ease-in;
     }
 
     .overlay .content input:hover {
         color: black;
         background-color: tomato;
     }
+
+    .formBX form .inputControl {
+      position: relative;
+      width: 100%;
+      width: 100%;
+  }
+
+  .formBX form .inputControl input,textarea {
+      width: 100%;
+      margin: 1rem 0rem;
+      background: transparent;
+      color: white;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid yellow;
+  }
+
+  .formBX form .inputControl label {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin: 1rem 0rem;
+      pointer-events: none;
+      transition: .5s;
+      color: white;
+  }
+
+  .formBX form input[type="submit"] {
+      padding: 5px 25px;
+      color: white;
+      background: red;
+  }
+  .formBX form textarea {
+    padding: 5px 25px;
+    width: 100%;
+    height: 100%;
+}
+  .formBX form input[type="submit"]:hover {
+      color: RED;
+      background: white;
+  }
+
+  .formBX form .inputControl input:focus~label,
+  .formBX form .inputControl input:valid~label,
+  .formBX form .inputControl textarea:focus~label,
+  .formBX form .inputControl textarea:valid~label {
+      position: absolute;
+      top: -18px;
+      left: 0px;
+      margin: 1rem 0rem;
+      color: yellow;
+  }
