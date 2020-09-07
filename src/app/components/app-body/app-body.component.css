@@ -271,6 +271,7 @@
 
     .about .contnetBX .heading {
       padding: 1.5rem;
+      text-transform: uppercase;
     }
 
     .about .contnetBX .content-abt {
@@ -407,7 +408,7 @@
     .gallary {
       background-color: #000;
     }
-
+    /* =======Form design started======= */
     .formdata {
       padding: 0;
       margin: 0;
@@ -572,20 +573,76 @@
       margin: 1rem 0rem;
       color: yellow;
     }
+    /* =======form design ended======= */
 
     /* =====services design  start===== */
-.service{
-  position: relative;
+.services{
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
-  text-align: center;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color:rgb(25, 36, 69)
 }
-.card{
-  width: 320px;
-  height: 450px;
 
+    .service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem
+
+}
+.service .box{
+  position: relative;
+  height: 360px;
+  width: 280px;
+  font-size: 1rem;
+  border: 3px solid red;
+  padding: 0.5rem 0.5rem;
+  background-color: #1B4F72;
+
+}
+@keyframes rotate{
+0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(20deg);
+  }
+}
+.service .box:hover{
+  animation: 1s linear .1s rotate;
+  transform: rotate(20deg);
+}
+
+.service .content {
+  height: 100%;
+  text-align: center;
+}
+.service .content span i{
+  color: #00FF00;
+ font-size: 7rem;
+}
+.service .content h2{
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+.service .content p{
+  color: rgba(255, 255, 255, 0.5);
+}
+.tittle{
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: white;
+  background: rgb(25, 36, 69);
+  padding: 0.8rem 0rem;
+}
+
+@media screen and (max-width: 881px) {
+  .services{
+    height: 100%;
+  }
 }
     /* =====services design  end===== */

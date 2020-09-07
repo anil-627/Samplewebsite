@@ -64,3 +64,9 @@ ul a {
   color: red;
   font-weight: bold;
 }
+@media screen and (max-width: 881px) {
+  .copy-rihts {
+
+    font-size: 1.0rem;
+  }
+}

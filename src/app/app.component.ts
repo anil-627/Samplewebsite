@@ -9,8 +9,10 @@ export class AppComponent implements OnInit, AfterViewInit {
   title = 'HomeWebsite';
   ngOnInit() {
     $('#loading_indicator').show();
+    $('#app').hide();
   }
   ngAfterViewInit() {
     $('#loading_indicator').hide();
+    $('#app').show();
   }
 }
