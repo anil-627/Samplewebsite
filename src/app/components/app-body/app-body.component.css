@@ -1,534 +1,534 @@
     * {
-        margin: 0px;
-        padding: 0px;
+      margin: 0px;
+      padding: 0px;
     }
 
     section {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
     }
 
     video {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
     hr {
-        transform: skew(0.5deg, 0.5deg);
-        border: 2px solid red;
-        z-index: 1111;
+      transform: skew(0.5deg, 0.5deg);
+      border: 2px solid red;
+      z-index: 1111;
     }
 
     .slider {
-        position: fixed;
-        left: -250px;
-        width: 250px;
-        max-height: 100%;
-        background: #000;
-        transition: all .5s ease-in-out;
-        z-index: 99999;
+      position: fixed;
+      left: -250px;
+      width: 250px;
+      max-height: 100%;
+      background: #000;
+      transition: all .5s ease-in-out;
+      z-index: 99999;
     }
 
     .slider ul li {
-        display: block;
-        width: 100%;
-        height: 100%;
-        line-height: 3rem;
-        color: white;
-        list-style: none;
-        box-sizing: border-box;
-        border-bottom: 1px solid red;
-        margin: 5px 0px;
-        padding: 0px 10px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      line-height: 3rem;
+      color: white;
+      list-style: none;
+      box-sizing: border-box;
+      border-bottom: 1px solid red;
+      margin: 5px 0px;
+      padding: 0px 10px;
     }
 
     .slider ul li i {
-        margin-right: 1rem;
-        color: teal;
+      margin-right: 1rem;
+      color: teal;
     }
 
     .slider-but {
-        position: fixed;
-        padding: 0.3rem;
-        line-height: 1rem;
-        top: 40%;
-        right: 0px;
-        width: 25px;
-        background: #28B463;
-        color: white;
-        z-index: 999;
+      position: fixed;
+      padding: 0.3rem;
+      line-height: 1rem;
+      top: 40%;
+      right: 0px;
+      width: 25px;
+      background: #28B463;
+      color: white;
+      z-index: 999;
     }
 
     .slider-but .fa {
-        margin: auto;
+      margin: auto;
     }
 
     #checkBox {
-        display: none;
+      display: none;
     }
 
     #checkBox .fa {
-        position: absolute;
-        top: 25px;
-        right: 10px;
-        transition: all .5s ease;
+      position: absolute;
+      top: 25px;
+      right: 10px;
+      transition: all .5s ease;
     }
 
     #checkBox:checked~.slider {
-        left: 0;
+      left: 0;
     }
 
     #checkBox:checked~label .fa {
-        transform: rotate(-180deg);
+      transform: rotate(-180deg);
     }
 
     video {
-        object-fit: cover;
+      object-fit: cover;
     }
 
     .smoke-effect {
-        margin: 0px;
-        padding: 0px;
-        height: 60vh;
-        background: #000;
-        background-size: cover;
-        background-position: center;
+      margin: 0px;
+      padding: 0px;
+      height: 60vh;
+      background: #000;
+      background-size: cover;
+      background-position: center;
     }
 
     .smoke-effect .welcomenote {
-        margin: 0px;
-        padding: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 100%;
-        text-align: center;
-        color: #ddd;
-        font-size: 2rem;
-        font-weight: bold;
-        font-family: sans-serif;
-        letter-spacing: 0.2rem;
+      margin: 0px;
+      padding: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: #ddd;
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: sans-serif;
+      letter-spacing: 0.2rem;
     }
 
     .notvisiable {
-        visibility: hidden;
+      visibility: hidden;
     }
 
     .smoke-effect .welcomenote span {
-        opacity: 0;
-        display: inline-block;
-        animation: animinate 1s linear forwards;
+      opacity: 0;
+      display: inline-block;
+      animation: animinate 1s linear forwards;
     }
 
     .smoke-effect .welcomenote span:nth-child(1) {
-        animation-delay: 1s;
-        color: #633974;
+      animation-delay: 1s;
+      color: #633974;
     }
 
     .smoke-effect .welcomenote span:nth-child(2) {
-        animation-delay: 1s;
-        color: #2E86C1;
+      animation-delay: 1s;
+      color: #2E86C1;
     }
 
     .smoke-effect .welcomenote span:nth-child(3) {
-        animation-delay: 1.25s;
-        color: #117A65;
+      animation-delay: 1.25s;
+      color: #117A65;
     }
 
     .smoke-effect .welcomenote span:nth-child(4) {
-        animation-delay: 1.25s;
-        color: #28B463;
+      animation-delay: 1.25s;
+      color: #28B463;
     }
 
     .smoke-effect .welcomenote span:nth-child(5) {
-        animation-delay: 1.25s;
-        color: #F1C40F;
+      animation-delay: 1.25s;
+      color: #F1C40F;
     }
 
     .smoke-effect .welcomenote span:nth-child(1) {
-        animation-delay: 1.5s;
-        color: #633974;
+      animation-delay: 1.5s;
+      color: #633974;
     }
 
     .smoke-effect .welcomenote span:nth-child(6) {
-        animation-delay: 1.5s;
-        color: #CA6F1E;
+      animation-delay: 1.5s;
+      color: #CA6F1E;
     }
 
     .smoke-effect .welcomenote span:nth-child(7) {
-        animation-delay: 1.5s;
-        color: #C39BD3;
+      animation-delay: 1.5s;
+      color: #C39BD3;
     }
 
     .smoke-effect .welcomenote span:nth-child(8) {
-        animation-delay: 1.75s;
-        color: #1B4F72;
+      animation-delay: 1.75s;
+      color: #1B4F72;
     }
 
     .smoke-effect h1 span:nth-child(1) {
-        animation-delay: 1.75s;
-        color: #4A235A;
+      animation-delay: 1.75s;
+      color: #4A235A;
     }
 
     .smoke-effect .welcomenote span:nth-child(9) {
-        animation-delay: 1.75s;
-        color: #943126;
+      animation-delay: 1.75s;
+      color: #943126;
     }
 
     .smoke-effect .welcomenote span:nth-child(10) {
-        animation-delay: 1.75s;
-        color: #F5B041;
+      animation-delay: 1.75s;
+      color: #F5B041;
     }
 
     .smoke-effect .welcomenote span:nth-child(11) {
-        animation-delay: 2s;
-        color: #633974;
+      animation-delay: 2s;
+      color: #633974;
     }
 
     .smoke-effect .welcomenote span:nth-child(12) {
-        animation-delay: 2s;
-        color: #C39BD3;
+      animation-delay: 2s;
+      color: #C39BD3;
     }
 
     .smoke-effect .welcomenote span:nth-child(13) {
-        animation-delay: 2s;
-        color: #943126;
+      animation-delay: 2s;
+      color: #943126;
     }
 
     .smoke-effect .welcomenote span:nth-child(14) {
-        animation-delay: 2.25s;
-        color: #1B4F72;
+      animation-delay: 2.25s;
+      color: #1B4F72;
     }
 
     .smoke-effect .welcomenote span:nth-child(15) {
-        animation-delay: 2.25s;
-        color: #CA6F1E;
+      animation-delay: 2.25s;
+      color: #CA6F1E;
     }
 
     .smoke-effect .welcomenote span:nth-child(16) {
-        animation-delay: 2.5s;
-        color: #0B5345;
+      animation-delay: 2.5s;
+      color: #0B5345;
     }
 
     .smoke-effect .welcomenote span:nth-child(17) {
-        animation-delay: 2.5s;
-        color: #76D7C4;
+      animation-delay: 2.5s;
+      color: #76D7C4;
     }
 
     .smoke-effect .welcomenote span:nth-child(18) {
-        animation-delay: 2.5s;
-        color: #D4AC0D;
+      animation-delay: 2.5s;
+      color: #D4AC0D;
     }
 
     .smoke-effect .welcomenote span:nth-child(19) {
-        animation-delay: 3s;
-        color: #5499C7;
+      animation-delay: 3s;
+      color: #5499C7;
     }
 
     .smoke-effect .welcomenote span:nth-child(20) {
-        animation-delay: 3.25s;
-        color: #76448A;
+      animation-delay: 3.25s;
+      color: #76448A;
     }
 
     .smoke-effect .welcomenote span:nth-child(21) {
-        animation-delay: 3.5s;
-        color: #5DADE2;
+      animation-delay: 3.5s;
+      color: #5DADE2;
     }
 
     .smoke-effect .welcomenote span:nth-child(22) {
-        animation-delay: 3.5s;
-        color: #2E4053;
+      animation-delay: 3.5s;
+      color: #2E4053;
     }
 
     @keyframes animinate {
-        0% {
-            opacity: 0;
-            transform: rotateY(90deg);
-            filter: blur(10px);
-        }
-        100% {
-            opacity: 1;
-            transform: rotateY(0deg);
-            filter: blur(0);
-        }
+      0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+      }
+      100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+      }
     }
 
     .about {
-        padding: 0;
-        margin: 0;
-        position: relative;
-        display: flex;
-        height: 100%;
-        max-width: 100%;
-        overflow-x: hidden
+      padding: 0;
+      margin: 0;
+      position: relative;
+      display: flex;
+      height: 100%;
+      max-width: 100%;
+      overflow-x: hidden
     }
 
     .about .contnetBX {
-        background-color: rgb(25, 36, 69);
+      background-color: rgb(25, 36, 69);
     }
 
     .about .contnetBX .heading {
-        padding: 1.5rem;
+      padding: 1.5rem;
     }
 
     .about .contnetBX .content-abt {
-        text-align: justify;
-        padding: 25px;
-        font-style: 1.2rem;
-        color: white;
-        padding: 1rem;
+      text-align: justify;
+      padding: 25px;
+      font-style: 1.2rem;
+      color: white;
+      padding: 1rem;
     }
 
     .about .imageBX {
-        height: auto;
-        background-color: rgb(25, 36, 69);
+      height: auto;
+      background-color: rgb(25, 36, 69);
     }
 
     .about .imageBX img {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
     .heading {
-        text-align: center;
-        color: rgb(55, 235, 11);
-        font-weight: 600;
+      text-align: center;
+      color: rgb(55, 235, 11);
+      font-weight: 600;
     }
 
     .beet-img {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
     }
 
     .beet-img img {
-        width: 250px;
-        height: 250px;
-        animation: .8s infinite beatHeart;
+      width: 250px;
+      height: 250px;
+      animation: .8s infinite beatHeart;
     }
 
     @keyframes beatHeart {
-        0% {
-            transform: scale(1);
-        }
-        25% {
-            transform: scale(1.1);
-        }
-        40% {
-            transform: scale(1);
-        }
-        60% {
-            transform: scale(1.1);
-        }
-        100% {
-            transform: scale(1);
-        }
+      0% {
+        transform: scale(1);
+      }
+      25% {
+        transform: scale(1.1);
+      }
+      40% {
+        transform: scale(1);
+      }
+      60% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
     }
 
     .beet-img span {
-        font-size: 55px;
-        color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-style: italic;
+      font-size: 55px;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
     }
 
     .swiper1 {
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 50px;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 50px;
     }
 
     .swiper1 .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 40vh;
-        height: 45vh;
-        background: #fff;
+      background-position: center;
+      background-size: cover;
+      width: 40vh;
+      height: 45vh;
+      background: #fff;
     }
 
     .con {
-        background: #fff;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
     }
 
     .swiper1 .swiper-slide .imgBx {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
     }
 
     .swiper1 .swiper-slide .imgBx img {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
     .swiper2 {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
     .swiper2 .swiper-slide {
-        background-position: center;
-        background-size: cover;
+      background-position: center;
+      background-size: cover;
     }
 
     .swiper2 .swiper-slide .imgBx {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
     }
 
     .swiper2 .swiper-slide .imgBx img {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
     @media screen and (max-width: 881px) {
-        .smoke-effect .welcomenote {
-            font-size: 0.9rem;
-        }
-        .smoke-effect {
-            height: 25vh;
-        }
-        .about {
-            flex-direction: column-reverse;
-        }
+      .smoke-effect .welcomenote {
+        font-size: 0.9rem;
+      }
+      .smoke-effect {
+        height: 25vh;
+      }
+      .about {
+        flex-direction: column-reverse;
+      }
     }
 
     .gallary {
-        background-color: #000;
+      background-color: #000;
     }
 
     .formdata {
-        padding: 0;
-        margin: 0;
-        position: relative;
-        width: 100%;
-        height: auto;
-        overflow-x: hidden;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
     }
 
     .formdata .form-feilds {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        padding:1rem;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
     }
 
     .formdata form {
-        position: relative;
-        width: 100%;
-        height: 100%;
+      position: relative;
+      width: 100%;
+      height: 100%;
     }
 
     .form-controls {
-        background-color: transparent;
-        outline: none;
-        color: white;
-        width: 100%;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid#00FF00;
-        padding: 0.6rem 0rem;
+      background-color: transparent;
+      outline: none;
+      color: white;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid#00FF00;
+      padding: 0.6rem 0rem;
     }
 
     .formdata input::placeholder {
-        color: white;
-        padding: 0.3rem;
+      color: white;
+      padding: 0.3rem;
     }
 
     .formdata textarea {
-        background-color: transparent;
-        outline: none;
-        color: white;
+      background-color: transparent;
+      outline: none;
+      color: white;
     }
 
     .formdata textarea::placeholder {
-        color: white;
-        padding: 0.3rem;
+      color: white;
+      padding: 0.3rem;
     }
 
     .formdata input[type='button'] {
-        padding: 0.5rem 0.8rem;
-        outline: none;
-        margin: 1.2rem 0rem;
-        text-transform: uppercase;
+      padding: 0.5rem 0.8rem;
+      outline: none;
+      margin: 1.2rem 0rem;
+      text-transform: uppercase;
     }
 
     .formdata input[type='button']:hover {
-        color: black;
-        background-color: #fff;
+      color: black;
+      background-color: #fff;
     }
 
     .formdata div img {
-        height: 100%;
-        width: 100%;
-        opacity: 1;
+      height: 100%;
+      width: 100%;
+      opacity: 1;
     }
 
     .container-form {
-        position: relative;
-        background-color: rgb(25, 36, 69);
-        overflow: hidden;
+      position: relative;
+      background-color: rgb(25, 36, 69);
+      overflow: hidden;
     }
 
     .image {
-        display: block;
-        width: 100%;
-        height: auto;
+      display: block;
+      width: 100%;
+      height: auto;
     }
 
     .overlay {
-        position: absolute;
-        bottom: 100%;
-        left: 0;
-        right: 0%;
-        background-color: rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        width: 0;
-        height: 100%;
-        transition: .5s ease;
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0%;
+      background-color: rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: .5s ease;
     }
 
     .container-form-img:hover .overlay {
-        width: 100%;
-        bottom: 0;
+      width: 100%;
+      bottom: 0;
     }
 
     .overlay .content {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        transition: 2s ease-in;
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      transition: 2s ease-in;
     }
 
     .overlay .content input:hover {
-        color: black;
-        background-color: tomato;
+      color: black;
+      background-color: tomato;
     }
 
     .formBX form .inputControl {
       position: relative;
       width: 100%;
       width: 100%;
-  }
+    }
 
-  .formBX form .inputControl input,textarea {
+    .formBX form .inputControl input, textarea {
       width: 100%;
       margin: 1rem 0rem;
       background: transparent;
@@ -536,9 +536,9 @@
       outline: none;
       border: none;
       border-bottom: 2px solid yellow;
-  }
+    }
 
-  .formBX form .inputControl label {
+    .formBX form .inputControl label {
       position: absolute;
       top: 0px;
       left: 0px;
@@ -546,30 +546,46 @@
       pointer-events: none;
       transition: .5s;
       color: white;
-  }
+    }
 
-  .formBX form input[type="submit"] {
+    .formBX form input[type="submit"] {
       padding: 5px 25px;
       color: white;
       background: red;
-  }
-  .formBX form textarea {
-    padding: 5px 25px;
-    width: 100%;
-    height: 100%;
-}
-  .formBX form input[type="submit"]:hover {
+    }
+
+    .formBX form textarea {
+      padding: 5px 25px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .formBX form input[type="submit"]:hover {
       color: RED;
       background: white;
-  }
+    }
 
-  .formBX form .inputControl input:focus~label,
-  .formBX form .inputControl input:valid~label,
-  .formBX form .inputControl textarea:focus~label,
-  .formBX form .inputControl textarea:valid~label {
+    .formBX form .inputControl input:focus~label, .formBX form .inputControl input:valid~label, .formBX form .inputControl textarea:focus~label, .formBX form .inputControl textarea:valid~label {
       position: absolute;
       top: -18px;
       left: 0px;
       margin: 1rem 0rem;
       color: yellow;
-  }
+    }
+
+    /* =====services design  start===== */
+.service{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 320px;
+  height: 450px;
+
+}
+    /* =====services design  end===== */
