@@ -265,6 +265,18 @@
       overflow-x: hidden
     }
 
+    .corp-points {
+      padding: 0rem 4rem;
+    }
+
+    .corp-points ul li {
+      list-style: none;
+    }
+
+    .corp-points ul li img {
+      margin: 0rem 0.5rem;
+    }
+
     .about .contnetBX {
       background-color: rgb(25, 36, 69);
     }
@@ -403,12 +415,17 @@
       .about {
         flex-direction: column-reverse;
       }
+      .corp-points {
+        padding: 0rem 1.3rem;
+      }
     }
 
     .gallary {
       background-color: #000;
     }
+
     /* =======Form design started======= */
+
     .formdata {
       padding: 0;
       margin: 0;
@@ -517,10 +534,13 @@
       white-space: nowrap;
       transition: 2s ease-in;
     }
-
+    .overlay .content input{
+      padding: 0.1rem 0.2rem;
+      text-transform: capitalize;
+    }
     .overlay .content input:hover {
-      color: black;
-      background-color: tomato;
+      color: white;
+      background-color: red;
     }
 
     .formBX form .inputControl {
@@ -573,76 +593,205 @@
       margin: 1rem 0rem;
       color: yellow;
     }
+
     /* =======form design ended======= */
 
     /* =====services design  start===== */
-.services{
-  width: 100%;
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:rgb(25, 36, 69)
-}
 
-    .service{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.8rem
+    .services {
+      width: 100%;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(25, 36, 69)
+    }
 
-}
-.service .box{
-  position: relative;
-  height: 360px;
-  width: 280px;
-  font-size: 1rem;
-  border: 3px solid red;
-  padding: 0.5rem 0.5rem;
-  background-color: #1B4F72;
+    .service {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.8rem
+    }
 
-}
-@keyframes rotate{
-0%{
-    transform: rotate(0deg);
-  }
+    .service .box {
+      position: relative;
+      height: 360px;
+      width: 280px;
+      font-size: 1rem;
+      border: 3px solid red;
+      padding: 0.5rem 0.5rem;
+      background-color: #1B4F72;
+    }
 
-  100%{
-    transform: rotate(20deg);
-  }
-}
-.service .box:hover{
-  animation: 1s linear .1s rotate;
-  transform: rotate(20deg);
-}
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(20deg);
+      }
+    }
 
-.service .content {
-  height: 100%;
-  text-align: center;
-}
-.service .content span i{
-  color: #00FF00;
- font-size: 7rem;
-}
-.service .content h2{
-  color: white;
-  font-size: 1.5rem;
-  padding: 0.8rem;
-}
-.service .content p{
-  color: rgba(255, 255, 255, 0.5);
-}
-.tittle{
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  color: white;
-  background: rgb(25, 36, 69);
-  padding: 0.8rem 0rem;
-}
+    .service .box:hover {
+      animation: 1s linear .1s rotate;
+      transform: rotate(20deg);
+    }
 
-@media screen and (max-width: 881px) {
-  .services{
-    height: 100%;
-  }
-}
+    .service .content {
+      height: 100%;
+      text-align: center;
+    }
+
+    .service .content span i {
+      color: #00FF00;
+      font-size: 7rem;
+    }
+
+    .service .content h2 {
+      color: white;
+      font-size: 1.5rem;
+      padding: 0.8rem;
+    }
+
+    .service .content p {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .tittle {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      color: white;
+      background: rgb(25, 36, 69);
+      padding: 0.8rem 0rem;
+    }
+
+    @media screen and (max-width: 881px) {
+      .services {
+        height: 100%;
+      }
+    }
+
     /* =====services design  end===== */
+
+    /* =========about us and why us started ===========*/
+
+    section {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .page-controller {
+      padding: 0;
+      margin: 0;
+    }
+
+    .page-controller .tittle {
+      font-size: 1.88rem;
+      color: #0c035e;
+      font-weight: 500;
+      background-color: #f2f2f2;
+    }
+
+    .img-control {
+      height: 100%;
+      width: 100%;
+      background-color: #f2f2f2;
+    }
+
+    .img-control img {
+      width: 100%;
+      height: auto;
+    }
+
+    .content-abt {
+      text-align: justify;
+      padding: 25px;
+      font-style: 1.2rem;
+    }
+
+    .about img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .whyus {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: none;
+      padding: 2.5rem;
+    }
+
+    .whyus .img {
+      height: 100%;
+      width: 100%;
+      position: relative;
+    }
+
+    .whyus .img img {
+      height: 450px;
+      height: 400px;
+      float: right;
+    }
+
+    .whyus .img img::after {
+      clear: right;
+    }
+
+    .whyus .tittle {
+      font-size: 2.58rem;
+      color: #0c035e;
+      font-weight: 500;
+      background-color: #f2f2f2;
+    }
+
+    .rolwhy {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .box .img1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0rem 1.5rem;
+    }
+
+    .rolwhy .img-content h3 {
+      font-size: 1.2rem;
+      color: #0c035e;
+    }
+
+    .rolwhy .img-content p {
+      color: #222222;
+    }
+
+    @media screen and (max-width: 881px) {
+      .whyus {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0.8rem;
+      }
+      .whyus .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .whyus .img img {
+        float: none;
+      }
+      .whyus .img img::after {
+        clear: right;
+      }
+    }
+
+    /* =====aboutus and why us ended====== */
