@@ -1,0 +1,13 @@
+<section>
+    <div class="formBX">
+        <form (ngSubmit)="verifyOTP()">
+            <h3 class="tittle_home">Verify OTP</h3>
+            <span class="msg">OTP sent to Your Registered Email ID</span>
+            <div class="text-center">
+                <ng-otp-input (onInputChange)="onOtpChange($event)" [config]="{length:5}"></ng-otp-input>
+                <input type="submit" value="verify" class="otp-verify" (click)="verifyOTP()">
+            </div>
+        </form>
+
+    </div>
+</section>

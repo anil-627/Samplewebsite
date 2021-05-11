@@ -19,3 +19,11 @@
   color: black;
   background-color: transparent;
 }
+.navbar-text{
+  color: red;
+  font-weight: 500;
+  font-size: large;
+}
+header{
+  z-index: 3
+}

@@ -1,26 +1,29 @@
 <header>
   <nav class="navbar navbar-expand-sm  " style="background-color: #D3D3D3;">
-    <a class="navbar-brand " routerLink='/home-body'> <img src="../../../assets/AKSOL2.png" alt="logo"></a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" class="icon"><i class="fa fa-bars" aria-hidden="true"></i>
-      </span>
-    </button>
-    <div class="collapse navbar-collapse mr-auto" id="collapsibleNavId">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item " routerLinkActive='active'>
-          <a class="nav-link" routerLink='/home-body'>Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" routerLinkActive='active'>
-          <a class="nav-link" routerLink='/about'>About</a>
-        </li>
-        <li class="nav-item" routerLinkActive='active'>
-          <a class="nav-link" routerLink='/service'>Services</a>
-        </li>
-      </ul>
-      <!-- <span class="navbar-text" routerLink='/login'>
-              <i class="fa fa-user-circle" aria-hidden="true"></i>
-            </span> -->
+    <div class="container">
+      <a class="navbar-brand " routerLink='/home/home-body'> <img src="../../../assets/AKSOL2.png" alt="logo"></a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" class="icon"><i class="fa fa-bars" aria-hidden="true"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse mr-auto" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item " routerLinkActive='active'>
+            <a class="nav-link" routerLink='/home/home-body'>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" routerLinkActive='active'>
+            <a class="nav-link" routerLink='/home/about'>About</a>
+          </li>
+          <li class="nav-item" routerLinkActive='active'>
+            <a class="nav-link" routerLink='/home/service'>Services</a>
+          </li>
+        </ul>
+        <span class="navbar-text" routerLink='/Authentication/login'>
+          <i class="fa fa-power-off" aria-hidden="true"></i>
+        </span>
+      </div>
     </div>
   </nav>
+
 </header>

@@ -1,0 +1,53 @@
+section {
+    
+    width: 100%;
+    height: 100vh;
+    background: url(../../../../assets/bg02.jpg);
+    background-size: cover;
+}
+
+.formBX {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.formBX a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+.formBX form {
+    padding: 0rem 3rem 3rem 3rem;
+    margin: 1rem 3rem 3rem 3rem;
+}
+
+
+.formBX form input[type="submit"] {
+    padding: 5px 25px;
+    color: black;
+    background: yellow;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.tittle_home{
+    color: yellow;
+    line-height: 2rem;
+    font-size:25px;
+    text-align: center;
+  }
+ .otp-verify{
+     margin-top: 5px;
+ }
+ .msg{
+     color: white;
+     color: yellow;
+     line-height: 2rem;
+ }
