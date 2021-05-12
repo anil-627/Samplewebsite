@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { OtpVerficationComponent } from './otp-verfication.component';
 
@@ -6,7 +6,7 @@ describe('OtpVerficationComponent', () => {
   let component: OtpVerficationComponent;
   let fixture: ComponentFixture<OtpVerficationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ OtpVerficationComponent ]
     })
