@@ -1,5 +1,7 @@
 const express = require('express');
+const connectDb=require("./DB/connection")
 const app = express();
+connectDb();
 const path = require('path');
 const forSSL = function() {
     return function(req, res, next) {
