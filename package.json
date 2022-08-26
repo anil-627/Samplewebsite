@@ -23,7 +23,7 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
-    "mongoose": "^6.0.10",
+    "mongoose": "^6.4.6",
     "ng-otp-input": "^1.7.1",
     "rxjs": "~6.5.4",
     "save": "^2.4.0",
