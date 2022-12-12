@@ -21,7 +21,7 @@
     "@angular/router": "~13.2.1",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.4.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jquery": "^3.5.1",
     "mongoose": "^6.0.10",
     "ng-otp-input": "^1.7.1",
